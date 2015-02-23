@@ -1,0 +1,12 @@
+.row
+  .col-xs-12
+    if errorText
+      .alert.alert-danger== errorText
+    
+    .recommendations
+      p Need some recommendations? Check out:
+      ul.list-inline
+        li: link-to 'artist' 'prettylights' | "prettylights"
+        li: link-to 'artist' 'teeel' | "teeel"
+        li: link-to 'artist' 'teendaze' | "teendaze"
+        li: link-to 'artist' 'carparkrecords' | "carparkrecords"
